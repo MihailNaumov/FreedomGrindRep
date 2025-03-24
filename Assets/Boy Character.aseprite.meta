@@ -1,0 +1,763 @@
+fileFormatVersion: 2
+guid: 559e9594cd3844d42924f78bc1274d21
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 20
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638784572184152417
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Boy Character_Frame_0
+    originalName: 
+    pivot: {x: -0.23809524, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 43
+      width: 21
+      height: 31
+    spriteID: 9bb929737602b0d4ab61a9aefd70f38c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 43}
+  - name: Boy Character_Frame_1
+    originalName: 
+    pivot: {x: -0.3, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 43
+      width: 20
+      height: 31
+    spriteID: 68972031a3ba26b448ad9f56fe6b331c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 43}
+  - name: Boy Character_Frame_2
+    originalName: 
+    pivot: {x: -0.3888889, y: -1.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 83
+      width: 18
+      height: 30
+    spriteID: 8c2beaeb2fbc68c4eaba92c13e62e8d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 83}
+  - name: Boy Character_Frame_3
+    originalName: 
+    pivot: {x: -0.3, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 43
+      width: 20
+      height: 31
+    spriteID: fa9256d934557964aa8af4014cb470ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 43}
+  - name: Boy Character_Frame_4
+    originalName: 
+    pivot: {x: -0.18181819, y: -1.6333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 43
+      width: 22
+      height: 30
+    spriteID: 8941ae86133317249b82e690770a48b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 43}
+  - name: Boy Character_Frame_5
+    originalName: 
+    pivot: {x: -0.2, y: -1.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 43
+      width: 20
+      height: 31
+    spriteID: b8240bbaea798234d88191eb3bdfd671
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 43}
+  - name: Boy Character_Frame_6
+    originalName: 
+    pivot: {x: -0.33333334, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 43
+      width: 18
+      height: 31
+    spriteID: c42d400f7ec63914db332d7f68d7b3d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 43}
+  - name: Boy Character_Frame_7
+    originalName: 
+    pivot: {x: -0.2, y: -1.516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 83
+      width: 20
+      height: 31
+    spriteID: 9da16f035a4754541a09907718613af7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 83}
+  - name: Boy Character_Frame_8
+    originalName: 
+    pivot: {x: -0.23809524, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 43
+      width: 21
+      height: 31
+    spriteID: b0d7444b4ad513e4c9d0e8c1a6f17571
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 43}
+  - name: Boy Character_Frame_9
+    originalName: 
+    pivot: {x: -0.23809524, y: -1.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 43
+      width: 21
+      height: 32
+    spriteID: ff1a5a4df63963b4d896e0635a149615
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 43}
+  - name: Boy Character_Frame_10
+    originalName: 
+    pivot: {x: -0.33333334, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 43
+      width: 21
+      height: 31
+    spriteID: 4d9c034a9c1a6084ea8e720c7b42c205
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 43}
+  - name: Boy Character_Frame_11
+    originalName: 
+    pivot: {x: 0, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 35
+      height: 31
+    spriteID: 3a836d57f6f9e6347aedd2b09dfc1a50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Boy Character_Frame_12
+    originalName: 
+    pivot: {x: 0.28947368, y: -1.7142859}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 38
+      height: 28
+    spriteID: c096c855a195c43459b36fca69774c88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
+  - name: Boy Character_Frame_13
+    originalName: 
+    pivot: {x: 0.1724138, y: -1.6000001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 4
+      width: 29
+      height: 30
+    spriteID: e25bbcadeb05862469648c6a38d6d6ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 4}
+  - name: Boy Character_Frame_14
+    originalName: 
+    pivot: {x: -0.04347826, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 4
+      width: 23
+      height: 31
+    spriteID: e09caf435cd8b574c9654ae0a1659c03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 196, y: 4}
+  - name: Boy Character_Frame_15
+    originalName: 
+    pivot: {x: -0.18181819, y: -1.548387}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 227
+      y: 4
+      width: 22
+      height: 31
+    spriteID: d9a3f7c227bc549478f339334d07bd18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 227, y: 4}
+  - name: Boy Character_Frame_16
+    originalName: 
+    pivot: {x: -0.25, y: -1.6333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 24
+      height: 30
+    spriteID: 99475fec353fa0f47a5c6bd7de0f9368
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  - name: Boy Character_Frame_17
+    originalName: 
+    pivot: {x: 0, y: -1.6551723}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 4
+      width: 26
+      height: 29
+    spriteID: 5db1acd1ec8c72e40a03bab53feaa122
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 4}
+  - name: Boy Character_Frame_18
+    originalName: 
+    pivot: {x: 0.22222222, y: -2.318182}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 83
+      width: 27
+      height: 22
+    spriteID: 080891f114ce58c4187cc784a2a32ab2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 83}
+  - name: Boy Character_Frame_19
+    originalName: 
+    pivot: {x: 0.5121951, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 83
+      width: 41
+      height: 8
+    spriteID: abb4a2e85a1714247b5af357190d3b89
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 83}
+  - name: Boy Character_Frame_20
+    originalName: 
+    pivot: {x: 0.5121951, y: -6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 83
+      width: 41
+      height: 8
+    spriteID: 9187176b340eafa4c84b299085022247
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 83}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1425453365
+    name: Boy Character
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Boy Character_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 69
+        y: 48
+        width: 21
+        height: 31
+      spriteId: 9bb929737602b0d4ab61a9aefd70f38c
+    - name: Boy Character_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 70
+        y: 48
+        width: 20
+        height: 31
+      spriteId: 68972031a3ba26b448ad9f56fe6b331c
+    - name: Boy Character_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 71
+        y: 48
+        width: 18
+        height: 30
+      spriteId: 8c2beaeb2fbc68c4eaba92c13e62e8d7
+    - name: Boy Character_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 70
+        y: 48
+        width: 20
+        height: 31
+      spriteId: fa9256d934557964aa8af4014cb470ce
+    - name: Boy Character_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 68
+        y: 49
+        width: 22
+        height: 30
+      spriteId: 8941ae86133317249b82e690770a48b5
+    - name: Boy Character_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 68
+        y: 47
+        width: 20
+        height: 31
+      spriteId: b8240bbaea798234d88191eb3bdfd671
+    - name: Boy Character_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 70
+        y: 48
+        width: 18
+        height: 31
+      spriteId: c42d400f7ec63914db332d7f68d7b3d8
+    - name: Boy Character_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 68
+        y: 47
+        width: 20
+        height: 31
+      spriteId: 9da16f035a4754541a09907718613af7
+    - name: Boy Character_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 69
+        y: 48
+        width: 21
+        height: 31
+      spriteId: b0d7444b4ad513e4c9d0e8c1a6f17571
+    - name: Boy Character_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 69
+        y: 48
+        width: 21
+        height: 32
+      spriteId: ff1a5a4df63963b4d896e0635a149615
+    - name: Boy Character_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 71
+        y: 48
+        width: 21
+        height: 31
+      spriteId: 4d9c034a9c1a6084ea8e720c7b42c205
+    - name: Boy Character_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 64
+        y: 48
+        width: 35
+        height: 31
+      spriteId: 3a836d57f6f9e6347aedd2b09dfc1a50
+    - name: Boy Character_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 53
+        y: 48
+        width: 38
+        height: 28
+      spriteId: c096c855a195c43459b36fca69774c88
+    - name: Boy Character_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 59
+        y: 48
+        width: 29
+        height: 30
+      spriteId: e25bbcadeb05862469648c6a38d6d6ba
+    - name: Boy Character_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 65
+        y: 48
+        width: 23
+        height: 31
+      spriteId: e09caf435cd8b574c9654ae0a1659c03
+    - name: Boy Character_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 68
+        y: 48
+        width: 22
+        height: 31
+      spriteId: d9a3f7c227bc549478f339334d07bd18
+    - name: Boy Character_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 70
+        y: 49
+        width: 24
+        height: 30
+      spriteId: 99475fec353fa0f47a5c6bd7de0f9368
+    - name: Boy Character_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 64
+        y: 48
+        width: 26
+        height: 29
+      spriteId: 5db1acd1ec8c72e40a03bab53feaa122
+    - name: Boy Character_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 58
+        y: 51
+        width: 27
+        height: 22
+      spriteId: 080891f114ce58c4187cc784a2a32ab2
+    - name: Boy Character_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 43
+        y: 48
+        width: 41
+        height: 8
+      spriteId: abb4a2e85a1714247b5af357190d3b89
+    - name: Boy Character_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 43
+        y: 48
+        width: 41
+        height: 8
+      spriteId: 9187176b340eafa4c84b299085022247
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
