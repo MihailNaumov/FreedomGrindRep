@@ -143,7 +143,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      morgenstern_0: 1731489451164310763
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -14,7 +14,7 @@ public class MoveModule : MonoBehaviour
 
     private Rigidbody2D rb;
     private Vector2 desiredVelocity = Vector2.zero;
-
+    private Vector2 extraForces = Vector2.zero;
     private EnemyStateController enemyController; // если это враг
     private void Awake()
     {
@@ -54,32 +54,40 @@ public class MoveModule : MonoBehaviour
         {
             if (acceleration == 0f)
             {
-                rb.velocity = desiredVelocity;
+                rb.velocity = desiredVelocity + extraForces;
             }
             else
             {
                 float t = Time.deltaTime / acceleration;
-                rb.velocity = Vector2.Lerp(rb.velocity, desiredVelocity, t);
+                rb.velocity = Vector2.Lerp(rb.velocity, desiredVelocity + extraForces, t);
             }
         }
         else
         {
             if (deceleration == 0f)
             {
-                rb.velocity = Vector2.zero;
+                rb.velocity = extraForces;
             }
             else
             {
                 float t = Time.deltaTime / deceleration;
-                rb.velocity = Vector2.Lerp(rb.velocity, Vector2.zero, t);
+                rb.velocity = Vector2.Lerp(rb.velocity, extraForces, t);
             }
         }
         // if (enemyController != null) Debug.Log(desiredVelocity); // ТЕСТ
+        extraForces = Vector2.Lerp(extraForces, Vector2.zero, Time.fixedDeltaTime * 5f);
     }
 
     public void SetDirection(Vector2 direction)
     {
         desiredVelocity = direction.normalized * moveSpeed;
+    }
+
+    
+
+    public void AddAvoidanceForce(Vector2 force)
+    {
+        extraForces += force;
     }
 
     private void OnDisable()
