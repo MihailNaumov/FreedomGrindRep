@@ -1,0 +1,3023 @@
+fileFormatVersion: 2
+guid: 34e682569a1d6794e9d8c1c26545ab26
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: suparat_anim_Frame_0
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 326
+      width: 43
+      height: 66
+    spriteID: ac70fc2cd7bc8334fbe05c89e1d8eabf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 323}
+  - name: suparat_anim_Frame_1
+    originalName: 
+    pivot: {x: 0.47826082, y: -0.054794524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 170
+      width: 46
+      height: 73
+    spriteID: 9cba4c2acdf2cc34bb82cca5e54c742a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 326, y: 166}
+  - name: suparat_anim_Frame_2
+    originalName: 
+    pivot: {x: 0.5217391, y: -0.06329114}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 426
+      width: 46
+      height: 79
+    spriteID: d4866e793944adf4e94bfe1e0db69245
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 421}
+  - name: suparat_anim_Frame_3
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.056179777}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 103
+      width: 45
+      height: 89
+    spriteID: 32b288c2877cd1449ade1eb2d32f806d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 98}
+  - name: suparat_anim_Frame_4
+    originalName: 
+    pivot: {x: 0.4897959, y: -0.05102041}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 353
+      width: 49
+      height: 98
+    spriteID: 848cb5dd05925d147acc269a6448610a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 237, y: 348}
+  - name: suparat_anim_Frame_5
+    originalName: 
+    pivot: {x: 0.49019605, y: -0.055555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 346
+      width: 51
+      height: 72
+    spriteID: fc65060f45ec6cb40a122fe9e90a5f76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 342}
+  - name: suparat_anim_Frame_6
+    originalName: 
+    pivot: {x: 0.6333333, y: -0.04411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 533
+      width: 60
+      height: 68
+    spriteID: 91414f8de231ce64abf2826eda966e71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 251, y: 530}
+  - name: suparat_anim_Frame_7
+    originalName: 
+    pivot: {x: 0.64516133, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 685
+      width: 62
+      height: 65
+    spriteID: 83eb68a056ad3d6448682373f7a37a62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 682}
+  - name: suparat_anim_Frame_8
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 400
+      width: 43
+      height: 66
+    spriteID: a116147c86525964a821eef3231c5f4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 397}
+  - name: suparat_anim_Frame_9
+    originalName: 
+    pivot: {x: 0.3559322, y: -0.04411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 831
+      width: 59
+      height: 68
+    spriteID: e392203c4e35d3549a02459ac11bb5fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 828}
+  - name: suparat_anim_Frame_10
+    originalName: 
+    pivot: {x: 0.3442623, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 200
+      width: 61
+      height: 65
+    spriteID: 639c2d5cccfadb74587798ba4a4e629c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 197}
+  - name: suparat_anim_Frame_11
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 474
+      width: 43
+      height: 66
+    spriteID: 77b1ddb22b1b3f4408a0ad63f0e214dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 471}
+  - name: suparat_anim_Frame_12
+    originalName: 
+    pivot: {x: 0.6333333, y: -0.04411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 609
+      width: 60
+      height: 68
+    spriteID: 20d58c3bde4a3634fb6d37a7727b9d92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 251, y: 606}
+  - name: suparat_anim_Frame_13
+    originalName: 
+    pivot: {x: 0.64516133, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 758
+      width: 62
+      height: 65
+    spriteID: 89533038710ab484aad62d0c6b0634ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 755}
+  - name: suparat_anim_Frame_14
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 548
+      width: 43
+      height: 66
+    spriteID: 09b3414cc7f15944abe5253f2c192ab4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 545}
+  - name: suparat_anim_Frame_15
+    originalName: 
+    pivot: {x: 0.3559322, y: -0.04411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 907
+      width: 59
+      height: 68
+    spriteID: 4f8104d8565cdee478ae5960b56431c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 904}
+  - name: suparat_anim_Frame_16
+    originalName: 
+    pivot: {x: 0.3442623, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 273
+      width: 61
+      height: 65
+    spriteID: cca84f7c07c652d438e0bf3d9b12cc99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 270}
+  - name: suparat_anim_Frame_17
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.046875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 565
+      width: 43
+      height: 64
+    spriteID: 7fa30800edc293649ab4cf65dbbc6b57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 562}
+  - name: suparat_anim_Frame_18
+    originalName: 
+    pivot: {x: 0.44, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 229
+      width: 50
+      height: 65
+    spriteID: d5e0c84d5f3067c4884fbf3b3d17e9af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 226}
+  - name: suparat_anim_Frame_19
+    originalName: 
+    pivot: {x: 0.5217391, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 805
+      width: 46
+      height: 65
+    spriteID: a623927190f53f243b07cffe5c7a70f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 440, y: 802}
+  - name: suparat_anim_Frame_20
+    originalName: 
+    pivot: {x: 0.47826082, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 878
+      width: 46
+      height: 65
+    spriteID: de4788304673f4d499eb235110447d10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 875}
+  - name: suparat_anim_Frame_21
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 946
+      width: 48
+      height: 63
+    spriteID: 340cd6687bfd728409d9a16ba36e724a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 943}
+  - name: suparat_anim_Frame_22
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.04411765}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 951
+      width: 43
+      height: 68
+    spriteID: f1aa63f4d9c0cd04580a04a76fd04a26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 437, y: 948}
+  - name: suparat_anim_Frame_23
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 622
+      width: 43
+      height: 66
+    spriteID: a2fabfee02bf58f45b4ded2678275a90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 619}
+  - name: suparat_anim_Frame_24
+    originalName: 
+    pivot: {x: 0.4583333, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 800
+      width: 48
+      height: 65
+    spriteID: b5e13d0b16bc6c34b931b2854c7d0afd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 797}
+  - name: suparat_anim_Frame_25
+    originalName: 
+    pivot: {x: 0.44, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 4
+      width: 50
+      height: 67
+    spriteID: 314955646cf8de34f9db22fe257e7fc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 1}
+  - name: suparat_anim_Frame_26
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 430
+      width: 45
+      height: 67
+    spriteID: 2162da0032aa39f4b88a12781c1373a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 439, y: 427}
+  - name: suparat_anim_Frame_27
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 696
+      width: 43
+      height: 66
+    spriteID: 492692cfb1a19e34e9ccfd5d2149e742
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 693}
+  - name: suparat_anim_Frame_28
+    originalName: 
+    pivot: {x: 0.48888886, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 505
+      width: 45
+      height: 67
+    spriteID: 29244dae3def4a74ab6872f61dceae3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 502}
+  - name: suparat_anim_Frame_29
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 770
+      width: 43
+      height: 66
+    spriteID: 2ad434dea8c03204da4c468bd4924c14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 767}
+  - name: suparat_anim_Frame_30
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 844
+      width: 43
+      height: 66
+    spriteID: 8032f401917ef394cbf476ff752969e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 841}
+  - name: suparat_anim_Frame_31
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 580
+      width: 45
+      height: 67
+    spriteID: 7af0e4a85e1c40d4aa1e93fc65a94151
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 439, y: 577}
+  - name: suparat_anim_Frame_32
+    originalName: 
+    pivot: {x: 0.44, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 79
+      width: 50
+      height: 67
+    spriteID: 8e06243a63de0d94bb212029b0f92723
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 76}
+  - name: suparat_anim_Frame_33
+    originalName: 
+    pivot: {x: 0.51111114, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 655
+      width: 45
+      height: 67
+    spriteID: df216503e86867345935293dd365fe83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 439, y: 652}
+  - name: suparat_anim_Frame_34
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 918
+      width: 43
+      height: 66
+    spriteID: 16c314b22924c564b81b1fedbdead203
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 915}
+  - name: suparat_anim_Frame_35
+    originalName: 
+    pivot: {x: 0.48888886, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 730
+      width: 45
+      height: 67
+    spriteID: 9d1065a08d80c10478c2f132dfbac9f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 727}
+  - name: suparat_anim_Frame_36
+    originalName: 
+    pivot: {x: 0.56, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 154
+      width: 50
+      height: 67
+    spriteID: 35e54885a01c8b04fb1c46da42831f2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 151}
+  - name: suparat_anim_Frame_37
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 873
+      width: 48
+      height: 65
+    spriteID: ff78e4ff12e1d5b4ab479a2c3e074c3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 384, y: 870}
+  - name: suparat_anim_Frame_38
+    originalName: 
+    pivot: {x: 0.46969697, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 601
+      y: 4
+      width: 66
+      height: 42
+    spriteID: 00476770d03bd244ba83cbef55a7bef7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 577, y: 1}
+  - name: suparat_anim_Frame_39
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.044776123}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 251
+      width: 43
+      height: 67
+    spriteID: c208af822ab018f489e3bf75fa0603c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 248}
+  - name: suparat_anim_Frame_40
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 112
+      width: 43
+      height: 66
+    spriteID: fcd65b86070385f479100f3a3d9bce87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 109}
+  - name: suparat_anim_Frame_41
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 796
+      width: 43
+      height: 63
+    spriteID: 82495a57095b2bb4e882443ed66a1c4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 793}
+  - name: suparat_anim_Frame_42
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 302
+      width: 43
+      height: 75
+    spriteID: b310240061534e24fbb515bd6d5bbda0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 299}
+  - name: suparat_anim_Frame_43
+    originalName: 
+    pivot: {x: 0.5217391, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 647
+      width: 46
+      height: 75
+    spriteID: 769bb95624e57fe4abb893e24ee12fbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 644}
+  - name: suparat_anim_Frame_44
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 385
+      width: 43
+      height: 75
+    spriteID: 3bda9700b27f6404fbda437a0faf7352
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 382}
+  - name: suparat_anim_Frame_45
+    originalName: 
+    pivot: {x: 0.47826082, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 730
+      width: 46
+      height: 75
+    spriteID: 0e0b6c6beca89f7448a1bc052c42c5f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 727}
+  - name: suparat_anim_Frame_46
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 468
+      width: 43
+      height: 75
+    spriteID: 02dea840a40985644a4e52956f9e0eae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 465}
+  - name: suparat_anim_Frame_47
+    originalName: 
+    pivot: {x: 0.5217391, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 813
+      width: 46
+      height: 75
+    spriteID: fe080d5d6cbfc1940972e6edc3e8d96f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 810}
+  - name: suparat_anim_Frame_48
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 551
+      width: 43
+      height: 75
+    spriteID: a9bb9cdaf6788b6468023ebe5350117e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 548}
+  - name: suparat_anim_Frame_49
+    originalName: 
+    pivot: {x: 0.47826082, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 896
+      width: 46
+      height: 75
+    spriteID: 0cb6632443b558145ac85eff7293cdba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 893}
+  - name: suparat_anim_Frame_50
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 634
+      width: 43
+      height: 75
+    spriteID: 2ef8d18f28e99ff47807e2023bc3daa3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 631}
+  - name: suparat_anim_Frame_51
+    originalName: 
+    pivot: {x: 0.5217391, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 4
+      width: 46
+      height: 75
+    spriteID: 792e825e93b5d304285d3c2d22dd78db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 1}
+  - name: suparat_anim_Frame_52
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 717
+      width: 43
+      height: 75
+    spriteID: dadeed0891e47a74fbc14eb0aef64640
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 714}
+  - name: suparat_anim_Frame_53
+    originalName: 
+    pivot: {x: 0.47826082, y: -0.040000003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 87
+      width: 46
+      height: 75
+    spriteID: 7f89fef0ade768f4386a2659f3cbac87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 326, y: 84}
+  - name: suparat_anim_Frame_54
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 867
+      width: 43
+      height: 63
+    spriteID: 5c8adb48dd5ae3f4ab5a9b91e29f5cc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 864}
+  - name: suparat_anim_Frame_55
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 186
+      width: 43
+      height: 66
+    spriteID: 04555b11218768047b43ed5123ea3ea8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 183}
+  - name: suparat_anim_Frame_56
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 419
+      width: 43
+      height: 65
+    spriteID: 9e83890f4968c984e8e7906cb56f4d84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 416}
+  - name: suparat_anim_Frame_57
+    originalName: 
+    pivot: {x: 0.43137252, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 4
+      width: 51
+      height: 63
+    spriteID: 5406cc654e0842f4bbbb0ee3e627f5ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 1}
+  - name: suparat_anim_Frame_58
+    originalName: 
+    pivot: {x: 0.45098042, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 75
+      width: 51
+      height: 63
+    spriteID: 70dd693f3076e1547bc0dc5ef8204189
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 439, y: 72}
+  - name: suparat_anim_Frame_59
+    originalName: 
+    pivot: {x: 0.527027, y: -0.029126216}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 413
+      width: 74
+      height: 103
+    spriteID: fdca3f4bff2139b478b460b5a3fadae3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -12, y: 410}
+  - name: suparat_anim_Frame_60
+    originalName: 
+    pivot: {x: 0.48648643, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 746
+      width: 74
+      height: 101
+    spriteID: 4e823387916a0fe4f8c3d08dd2e02d3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -15, y: 743}
+  - name: suparat_anim_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 855
+      width: 74
+      height: 101
+    spriteID: 8394b7a3d6eb14549a5e5ec529ed7a1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -14, y: 852}
+  - name: suparat_anim_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 4
+      width: 74
+      height: 101
+    spriteID: b5df31ed63b832b4ebce4ba1e4dff7fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 1}
+  - name: suparat_anim_Frame_63
+    originalName: 
+    pivot: {x: 0.43137252, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 146
+      width: 51
+      height: 63
+    spriteID: cb4a9851cb8eb9c43b38339e98949938
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 143}
+  - name: suparat_anim_Frame_64
+    originalName: 
+    pivot: {x: 0.45098042, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 217
+      width: 51
+      height: 63
+    spriteID: 803b529536461d54b8d8b3a8482d0c0f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 439, y: 214}
+  - name: suparat_anim_Frame_65
+    originalName: 
+    pivot: {x: 0.527027, y: -0.029126216}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 524
+      width: 74
+      height: 103
+    spriteID: 70d8f65cdd9fbee468f5d58e29bc8839
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -12, y: 521}
+  - name: suparat_anim_Frame_66
+    originalName: 
+    pivot: {x: 0.48648643, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 113
+      width: 74
+      height: 101
+    spriteID: c7b7fe89114902c48b17459003092d82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 110}
+  - name: suparat_anim_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 222
+      width: 74
+      height: 101
+    spriteID: b96133f909ae2a6438295b29ea150e9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 219}
+  - name: suparat_anim_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 331
+      width: 74
+      height: 101
+    spriteID: bf46c7d8f56cad1409a0ba27fafd5efe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 328}
+  - name: suparat_anim_Frame_69
+    originalName: 
+    pivot: {x: 0.43137252, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 288
+      width: 51
+      height: 63
+    spriteID: 475fcfe82ffdb5e42977de5bf5d0d113
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 438, y: 285}
+  - name: suparat_anim_Frame_70
+    originalName: 
+    pivot: {x: 0.45098042, y: -0.04761905}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 471
+      y: 359
+      width: 51
+      height: 63
+    spriteID: da9bbbc4cb8153f45a411c95a8291cf1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 439, y: 356}
+  - name: suparat_anim_Frame_71
+    originalName: 
+    pivot: {x: 0.527027, y: -0.029126216}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 635
+      width: 74
+      height: 103
+    spriteID: 0880d45d42368ae4eb8a5c00f0e56eef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -12, y: 632}
+  - name: suparat_anim_Frame_72
+    originalName: 
+    pivot: {x: 0.48648643, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 440
+      width: 74
+      height: 101
+    spriteID: 5f651a6d649b7ed46929484e7312e0da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 437}
+  - name: suparat_anim_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 549
+      width: 74
+      height: 101
+    spriteID: 7f3311fb8a3735a4ba7fe8445f794cc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 546}
+  - name: suparat_anim_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: -0.02970297}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 658
+      width: 74
+      height: 101
+    spriteID: a43b5ec323ef26b45a77c567dd0fc71f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 655}
+  - name: suparat_anim_Frame_75
+    originalName: 
+    pivot: {x: 0.4883721, y: -0.046153847}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 492
+      width: 43
+      height: 65
+    spriteID: f7fcd024f08afba46a75a28ba982ca1c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 496, y: 489}
+  - name: suparat_anim_Frame_76
+    originalName: 
+    pivot: {x: 0.48333332, y: -0.05084746}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 513
+      width: 60
+      height: 59
+    spriteID: 2a5b8e577c5e3394c9ac1203fcc0db3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 510}
+  - name: suparat_anim_Frame_77
+    originalName: 
+    pivot: {x: 0.46031743, y: -0.0652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 964
+      width: 63
+      height: 46
+    spriteID: c51eba9826b6aed418f10c6c7b77335c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -22, y: 961}
+  - name: suparat_anim_Frame_78
+    originalName: 
+    pivot: {x: 0.47619045, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 260
+      width: 63
+      height: 45
+    spriteID: b6c3db4010299434cae259b724af3403
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 505, y: 257}
+  - name: suparat_anim_Frame_79
+    originalName: 
+    pivot: {x: 0.49180323, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 637
+      width: 61
+      height: 45
+    spriteID: 0040db1d557ff8f4fb7ae93e23c2dfba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 505, y: 634}
+  - name: suparat_anim_Frame_80
+    originalName: 
+    pivot: {x: 0.48333332, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 938
+      width: 60
+      height: 45
+    spriteID: a4f1ee7d795f3214997641f467ab4458
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 504, y: 935}
+  - name: suparat_anim_Frame_81
+    originalName: 
+    pivot: {x: 0.46031743, y: -0.0652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 4
+      width: 63
+      height: 46
+    spriteID: 6f8a210e9521455479243707f69cfe44
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 504, y: 1}
+  - name: suparat_anim_Frame_82
+    originalName: 
+    pivot: {x: 0.47619045, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 313
+      width: 63
+      height: 45
+    spriteID: 8b645d725c26e2140a103242fd08fbf4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 505, y: 310}
+  - name: suparat_anim_Frame_83
+    originalName: 
+    pivot: {x: 0.49180323, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 690
+      width: 61
+      height: 45
+    spriteID: cb0ff5fd49e987e4e9f1fc6614c40ed9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 505, y: 687}
+  - name: suparat_anim_Frame_84
+    originalName: 
+    pivot: {x: 0.48333332, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 601
+      y: 54
+      width: 60
+      height: 45
+    spriteID: fd8e288a0f19d7541b50c93e4f1b2f70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 575, y: 51}
+  - name: suparat_anim_Frame_85
+    originalName: 
+    pivot: {x: 0.46031743, y: -0.0652174}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 58
+      width: 63
+      height: 46
+    spriteID: 6403a7080c8259a4e88b079cda1349d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 504, y: 55}
+  - name: suparat_anim_Frame_86
+    originalName: 
+    pivot: {x: 0.47619045, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 366
+      width: 63
+      height: 45
+    spriteID: e441c23e71b3b0c4c92b85445ffc2cd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 505, y: 363}
+  - name: suparat_anim_Frame_87
+    originalName: 
+    pivot: {x: 0.49180323, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 743
+      width: 61
+      height: 45
+    spriteID: b07c8518d87a91a4c9671107089523b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 505, y: 740}
+  - name: suparat_anim_Frame_88
+    originalName: 
+    pivot: {x: 0.48333332, y: -0.06666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 601
+      y: 107
+      width: 60
+      height: 45
+    spriteID: 939ab833ab1cd1b4488925049af72b8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 575, y: 104}
+  - name: suparat_anim_Frame_89
+    originalName: 
+    pivot: {x: 0.48333332, y: -0.05084746}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 580
+      width: 60
+      height: 59
+    spriteID: 337cff09d49bfbe46a20834da224ae3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 577}
+  - name: suparat_anim_Frame_90
+    originalName: 
+    pivot: {x: 0.4939759, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 4
+      width: 83
+      height: 78
+    spriteID: 33f834a6f98e7784299a3e5a7a9c3b4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 1}
+  - name: suparat_anim_Frame_91
+    originalName: 
+    pivot: {x: 0.5168539, y: -0.03488372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 319
+      width: 89
+      height: 86
+    spriteID: add93a5b5a5cdf547ba9c5eb2877c784
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -5, y: 316}
+  - name: suparat_anim_Frame_92
+    originalName: 
+    pivot: {x: 0.41666663, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 949
+      width: 72
+      height: 66
+    spriteID: 0eda74935ccda9f4fa09197f97744194
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 946}
+  - name: suparat_anim_Frame_93
+    originalName: 
+    pivot: {x: 0.41666663, y: -0.045454547}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 459
+      width: 72
+      height: 66
+    spriteID: 2e58bd46423661f4ca8f2b3770094eba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 456}
+  - name: suparat_anim_Frame_94
+    originalName: 
+    pivot: {x: 0.4137931, y: -0.032258064}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 218
+      width: 87
+      height: 93
+    spriteID: cb45f22845d5ac34abe2021f62050040
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -15, y: 215}
+  - name: suparat_anim_Frame_95
+    originalName: 
+    pivot: {x: 0.38888887, y: -0.029411767}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 90
+      height: 102
+    spriteID: 05e492e3b5711164f8e3880a3b52a804
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -16, y: 1}
+  - name: suparat_anim_Frame_96
+    originalName: 
+    pivot: {x: 0.46153843, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 90
+      width: 78
+      height: 78
+    spriteID: 4d08398a50fe0574cacb957ad62f4fa8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 87}
+  - name: suparat_anim_Frame_97
+    originalName: 
+    pivot: {x: 0.46153843, y: -0.03846154}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 176
+      width: 78
+      height: 78
+    spriteID: 0039b1c573a92874c88d30034c9d6fce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 173}
+  - name: suparat_anim_Frame_98
+    originalName: 
+    pivot: {x: 0.5263158, y: -0.032967035}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 184
+      y: 4
+      width: 76
+      height: 91
+    spriteID: 780da074b3610584ea529c8b552ee6c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 169, y: 1}
+  - name: suparat_anim_Frame_99
+    originalName: 
+    pivot: {x: 0.5647059, y: -0.03125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 114
+      width: 85
+      height: 96
+    spriteID: 920fc0b14262d5747b73ad9d42a02aac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: -3, y: 111}
+  - name: suparat_anim_Frame_100
+    originalName: 
+    pivot: {x: 0.4545454, y: -0.03614458}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 767
+      width: 66
+      height: 83
+    spriteID: 75c64ec3d717ec74e82ee75a33030206
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 764}
+  - name: suparat_anim_Frame_101
+    originalName: 
+    pivot: {x: 0.4545454, y: -0.03614458}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 102
+      y: 858
+      width: 66
+      height: 83
+    spriteID: 68e01e4e7f840ce4093099d23abdb428
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 855}
+  - name: suparat_anim_Frame_102
+    originalName: 
+    pivot: {x: 0.4545454, y: -0.03614458}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 262
+      width: 66
+      height: 83
+    spriteID: 3cee7f78cd033794f8475ad815671547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 259}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 196021652
+    name: suparat_anim
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: suparat_anim_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: ac70fc2cd7bc8334fbe05c89e1d8eabf
+    - name: suparat_anim_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 9cba4c2acdf2cc34bb82cca5e54c742a
+    - name: suparat_anim_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: d4866e793944adf4e94bfe1e0db69245
+    - name: suparat_anim_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 32b288c2877cd1449ade1eb2d32f806d
+    - name: suparat_anim_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 848cb5dd05925d147acc269a6448610a
+    - name: suparat_anim_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: fc65060f45ec6cb40a122fe9e90a5f76
+    - name: suparat_anim_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 91414f8de231ce64abf2826eda966e71
+    - name: suparat_anim_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 83eb68a056ad3d6448682373f7a37a62
+    - name: suparat_anim_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: a116147c86525964a821eef3231c5f4b
+    - name: suparat_anim_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: e392203c4e35d3549a02459ac11bb5fc
+    - name: suparat_anim_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 639c2d5cccfadb74587798ba4a4e629c
+    - name: suparat_anim_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 77b1ddb22b1b3f4408a0ad63f0e214dd
+    - name: suparat_anim_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 20d58c3bde4a3634fb6d37a7727b9d92
+    - name: suparat_anim_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 89533038710ab484aad62d0c6b0634ce
+    - name: suparat_anim_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 09b3414cc7f15944abe5253f2c192ab4
+    - name: suparat_anim_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 4f8104d8565cdee478ae5960b56431c9
+    - name: suparat_anim_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: cca84f7c07c652d438e0bf3d9b12cc99
+    - name: suparat_anim_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 7fa30800edc293649ab4cf65dbbc6b57
+    - name: suparat_anim_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: d5e0c84d5f3067c4884fbf3b3d17e9af
+    - name: suparat_anim_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: a623927190f53f243b07cffe5c7a70f5
+    - name: suparat_anim_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: de4788304673f4d499eb235110447d10
+    - name: suparat_anim_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 340cd6687bfd728409d9a16ba36e724a
+    - name: suparat_anim_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: f1aa63f4d9c0cd04580a04a76fd04a26
+    - name: suparat_anim_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: a2fabfee02bf58f45b4ded2678275a90
+    - name: suparat_anim_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: b5e13d0b16bc6c34b931b2854c7d0afd
+    - name: suparat_anim_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 314955646cf8de34f9db22fe257e7fc8
+    - name: suparat_anim_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 2162da0032aa39f4b88a12781c1373a9
+    - name: suparat_anim_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 492692cfb1a19e34e9ccfd5d2149e742
+    - name: suparat_anim_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 29244dae3def4a74ab6872f61dceae3e
+    - name: suparat_anim_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 2ad434dea8c03204da4c468bd4924c14
+    - name: suparat_anim_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 8032f401917ef394cbf476ff752969e9
+    - name: suparat_anim_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 7af0e4a85e1c40d4aa1e93fc65a94151
+    - name: suparat_anim_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 8e06243a63de0d94bb212029b0f92723
+    - name: suparat_anim_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: df216503e86867345935293dd365fe83
+    - name: suparat_anim_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 16c314b22924c564b81b1fedbdead203
+    - name: suparat_anim_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 9d1065a08d80c10478c2f132dfbac9f6
+    - name: suparat_anim_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 35e54885a01c8b04fb1c46da42831f2f
+    - name: suparat_anim_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: ff78e4ff12e1d5b4ab479a2c3e074c3e
+    - name: suparat_anim_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 00476770d03bd244ba83cbef55a7bef7
+    - name: suparat_anim_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: c208af822ab018f489e3bf75fa0603c9
+    - name: suparat_anim_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: fcd65b86070385f479100f3a3d9bce87
+    - name: suparat_anim_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 82495a57095b2bb4e882443ed66a1c4a
+    - name: suparat_anim_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: b310240061534e24fbb515bd6d5bbda0
+    - name: suparat_anim_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 769bb95624e57fe4abb893e24ee12fbd
+    - name: suparat_anim_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 3bda9700b27f6404fbda437a0faf7352
+    - name: suparat_anim_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 0e0b6c6beca89f7448a1bc052c42c5f7
+    - name: suparat_anim_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 02dea840a40985644a4e52956f9e0eae
+    - name: suparat_anim_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: fe080d5d6cbfc1940972e6edc3e8d96f
+    - name: suparat_anim_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: a9bb9cdaf6788b6468023ebe5350117e
+    - name: suparat_anim_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 0cb6632443b558145ac85eff7293cdba
+    - name: suparat_anim_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 2ef8d18f28e99ff47807e2023bc3daa3
+    - name: suparat_anim_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 792e825e93b5d304285d3c2d22dd78db
+    - name: suparat_anim_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: dadeed0891e47a74fbc14eb0aef64640
+    - name: suparat_anim_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 7f89fef0ade768f4386a2659f3cbac87
+    - name: suparat_anim_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 5c8adb48dd5ae3f4ab5a9b91e29f5cc6
+    - name: suparat_anim_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 04555b11218768047b43ed5123ea3ea8
+    - name: suparat_anim_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 9e83890f4968c984e8e7906cb56f4d84
+    - name: suparat_anim_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 5406cc654e0842f4bbbb0ee3e627f5ec
+    - name: suparat_anim_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 70dd693f3076e1547bc0dc5ef8204189
+    - name: suparat_anim_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: fdca3f4bff2139b478b460b5a3fadae3
+    - name: suparat_anim_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 4e823387916a0fe4f8c3d08dd2e02d3f
+    - name: suparat_anim_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 8394b7a3d6eb14549a5e5ec529ed7a1d
+    - name: suparat_anim_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: b5df31ed63b832b4ebce4ba1e4dff7fd
+    - name: suparat_anim_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: cb4a9851cb8eb9c43b38339e98949938
+    - name: suparat_anim_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 803b529536461d54b8d8b3a8482d0c0f
+    - name: suparat_anim_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 70d8f65cdd9fbee468f5d58e29bc8839
+    - name: suparat_anim_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: c7b7fe89114902c48b17459003092d82
+    - name: suparat_anim_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: b96133f909ae2a6438295b29ea150e9c
+    - name: suparat_anim_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: bf46c7d8f56cad1409a0ba27fafd5efe
+    - name: suparat_anim_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 475fcfe82ffdb5e42977de5bf5d0d113
+    - name: suparat_anim_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: da9bbbc4cb8153f45a411c95a8291cf1
+    - name: suparat_anim_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 0880d45d42368ae4eb8a5c00f0e56eef
+    - name: suparat_anim_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 5f651a6d649b7ed46929484e7312e0da
+    - name: suparat_anim_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 7f3311fb8a3735a4ba7fe8445f794cc7
+    - name: suparat_anim_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: a43b5ec323ef26b45a77c567dd0fc71f
+    - name: suparat_anim_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: f7fcd024f08afba46a75a28ba982ca1c
+    - name: suparat_anim_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 2a5b8e577c5e3394c9ac1203fcc0db3a
+    - name: suparat_anim_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: c51eba9826b6aed418f10c6c7b77335c
+    - name: suparat_anim_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: b6c3db4010299434cae259b724af3403
+    - name: suparat_anim_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 0040db1d557ff8f4fb7ae93e23c2dfba
+    - name: suparat_anim_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: a4f1ee7d795f3214997641f467ab4458
+    - name: suparat_anim_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 6f8a210e9521455479243707f69cfe44
+    - name: suparat_anim_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 8b645d725c26e2140a103242fd08fbf4
+    - name: suparat_anim_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: cb0ff5fd49e987e4e9f1fc6614c40ed9
+    - name: suparat_anim_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: fd8e288a0f19d7541b50c93e4f1b2f70
+    - name: suparat_anim_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 6403a7080c8259a4e88b079cda1349d6
+    - name: suparat_anim_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: e441c23e71b3b0c4c92b85445ffc2cd1
+    - name: suparat_anim_Frame_87
+      frameIndex: 87
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: b07c8518d87a91a4c9671107089523b0
+    - name: suparat_anim_Frame_88
+      frameIndex: 88
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 939ab833ab1cd1b4488925049af72b8c
+    - name: suparat_anim_Frame_89
+      frameIndex: 89
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 337cff09d49bfbe46a20834da224ae3e
+    - name: suparat_anim_Frame_90
+      frameIndex: 90
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 33f834a6f98e7784299a3e5a7a9c3b4c
+    - name: suparat_anim_Frame_91
+      frameIndex: 91
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: add93a5b5a5cdf547ba9c5eb2877c784
+    - name: suparat_anim_Frame_92
+      frameIndex: 92
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 0eda74935ccda9f4fa09197f97744194
+    - name: suparat_anim_Frame_93
+      frameIndex: 93
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 2e58bd46423661f4ca8f2b3770094eba
+    - name: suparat_anim_Frame_94
+      frameIndex: 94
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: cb45f22845d5ac34abe2021f62050040
+    - name: suparat_anim_Frame_95
+      frameIndex: 95
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 05e492e3b5711164f8e3880a3b52a804
+    - name: suparat_anim_Frame_96
+      frameIndex: 96
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 4d08398a50fe0574cacb957ad62f4fa8
+    - name: suparat_anim_Frame_97
+      frameIndex: 97
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 0039b1c573a92874c88d30034c9d6fce
+    - name: suparat_anim_Frame_98
+      frameIndex: 98
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 780da074b3610584ea529c8b552ee6c6
+    - name: suparat_anim_Frame_99
+      frameIndex: 99
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 920fc0b14262d5747b73ad9d42a02aac
+    - name: suparat_anim_Frame_100
+      frameIndex: 100
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 75c64ec3d717ec74e82ee75a33030206
+    - name: suparat_anim_Frame_101
+      frameIndex: 101
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 68e01e4e7f840ce4093099d23abdb428
+    - name: suparat_anim_Frame_102
+      frameIndex: 102
+      cellRect:
+        x: 0
+        y: 0
+        width: 110
+        height: 120
+      spriteId: 3cee7f78cd033794f8475ad815671547
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 110, y: 120}

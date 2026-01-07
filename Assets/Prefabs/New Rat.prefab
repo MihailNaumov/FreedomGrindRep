@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3070986019732612806}
-  - component: {fileID: 9006321488354385219}
   - component: {fileID: 4083724406763140062}
   - component: {fileID: 6382637180543912474}
   - component: {fileID: 1301017909085098668}
-  m_Layer: 0
+  - component: {fileID: 7223370251713351022}
+  m_Layer: 6
   m_Name: rat_physics
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -35,42 +35,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 546520517417212323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &9006321488354385219
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2371172140100097972}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.28}
-  m_Radius: 0.64
 --- !u!212 &4083724406763140062
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -173,6 +137,43 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.03, y: -0.52}
   m_Radius: 1.41
+--- !u!70 &7223370251713351022
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2371172140100097972}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: -0.05}
+  m_Size: {x: 1.53, y: 1.59}
+  m_Direction: 0
 --- !u!1 &4616674857403503443
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,9 +220,12 @@ GameObject:
   - component: {fileID: 5205991538808254172}
   - component: {fileID: 5429613740283308339}
   - component: {fileID: 4794926276645628552}
-  m_Layer: 0
+  - component: {fileID: 8478487543820284629}
+  - component: {fileID: -2574278699803250875}
+  - component: {fileID: 4479399767145015849}
+  m_Layer: 6
   m_Name: New Rat
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,7 +309,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af00ae16799fc6143b6396fc393568f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 1
   acceleration: 0
   deceleration: 0.3
 --- !u!114 &5205991538808254172
@@ -350,6 +354,76 @@ MonoBehaviour:
   currentMode: 0
   navInput: {fileID: 5429613740283308339}
   directInput: {fileID: 5205991538808254172}
+--- !u!114 &8478487543820284629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7939548729952445749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050c3ebd16100aa4689efa9408323113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHp: 20
+  _spawnFullHp: 1
+  _startHp: 20
+  _invulnAfterHit: 0.05
+  _typeMultiplier:
+    Physical: 1
+    Earth: 1
+    Water: 1
+    Fire: 1
+    Air: 1
+--- !u!114 &-2574278699803250875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7939548729952445749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e409de6175d5144c9a35e14a172e7fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 8478487543820284629}
+  _renderer: {fileID: 4842950468211029157}
+  _childAnimator: {fileID: 7024086182054717833}
+  _animator: {fileID: 0}
+  _visualRoot: {fileID: 2032668426493549388}
+  _barOffset: {x: 0, y: 1.2, z: 0}
+  _barSize: {x: 60, y: 12}
+  _barPadding: 0.3
+  _barFillColor: {r: 0.13189746, g: 0.49056602, b: 0.13189746, a: 0.92156863}
+  _barBgColor: {r: 0, g: 0, b: 0, a: 0.55}
+  _outlineColor: {r: 0, g: 0, b: 0, a: 0.39607844}
+  _outlinePx: 2
+  _cornerRadius: 4
+  _innerPadding: 1
+  _flashCount: 2
+  _flashTime: 0.05
+  _shakeDuration: 0.08
+  _shakeDistance: 0.06
+  _deadSprite: {fileID: -3154268631577179784, guid: 82ce475ecf511514eac063605bc6a3f0, type: 3}
+--- !u!114 &4479399767145015849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7939548729952445749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c80e65d4c0c134fa7a3fff527687f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 8478487543820284629}
+  _disableBehaviours:
+  - {fileID: 8875704590622897408}
+  - {fileID: 5205991538808254172}
+  - {fileID: 6382637180543912474}
 --- !u!1001 &8169803459436258369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,12 +442,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1160356261127867848, guid: 3d5dd463c60878b41ab6084137cf8f44, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1160356261127867848, guid: 3d5dd463c60878b41ab6084137cf8f44, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: -3407659066959607985, guid: be724ae115d29164785a1d407d2389f2, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 3d5dd463c60878b41ab6084137cf8f44, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -438,5 +512,15 @@ PrefabInstance:
 --- !u!4 &2032668426493549388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 3d5dd463c60878b41ab6084137cf8f44, type: 3}
+  m_PrefabInstance: {fileID: 8169803459436258369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4842950468211029157 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3626916397498700004, guid: 3d5dd463c60878b41ab6084137cf8f44, type: 3}
+  m_PrefabInstance: {fileID: 8169803459436258369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7024086182054717833 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1160356261127867848, guid: 3d5dd463c60878b41ab6084137cf8f44, type: 3}
   m_PrefabInstance: {fileID: 8169803459436258369}
   m_PrefabAsset: {fileID: 0}

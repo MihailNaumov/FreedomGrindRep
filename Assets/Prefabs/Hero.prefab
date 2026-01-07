@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1814194470962494985}
   - component: {fileID: 8418066295207345491}
   - component: {fileID: 2763319979023247381}
+  - component: {fileID: 9008457016821914535}
+  - component: {fileID: 2941476697037072909}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -36,6 +38,7 @@ Transform:
   - {fileID: 4608434588351597953}
   - {fileID: 2269915050227670275}
   - {fileID: 985704898883269056}
+  - {fileID: 3983948015839715006}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1814194470962494985
@@ -92,6 +95,48 @@ MonoBehaviour:
   moveSpeed: 10
   acceleration: 0
   deceleration: 0
+--- !u!114 &9008457016821914535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48276112515823654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb5d7600b7204c4db16ad16d94ede30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mode: 0
+  _cooldown: 0.5
+  _baseDamage: 10
+  _damageType: 0
+  _hitboxPrefab: {fileID: 0}
+  _hitboxSpawn: {fileID: 0}
+  _projectilePrefab: {fileID: 0}
+  _projectileSpawn: {fileID: 0}
+--- !u!114 &2941476697037072909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48276112515823654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050c3ebd16100aa4689efa9408323113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHp: 100
+  _spawnFullHp: 1
+  _startHp: 100
+  _invulnAfterHit: 0.05
+  _typeMultiplier:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
 --- !u!1 &617647146696936666
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +246,37 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2134253109123086034}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6975784595120494423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3535942332168772517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3983948015839715006}
+  m_Layer: 0
+  m_Name: HitboxSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3983948015839715006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3535942332168772517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
