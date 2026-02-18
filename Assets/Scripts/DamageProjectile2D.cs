@@ -1,50 +1,92 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace FreedomGrind.Combat
 {
-    /// <summary>Простой trigger-снаряд: летит, при входе в цель наносит урон.</summary>
+    /// <summary> Дальний урон, Rigidbody2D, pierce, мир-коллизия </summary>
     [RequireComponent(typeof(Collider2D))]
+    [RequireComponent(typeof(Rigidbody2D))]
     public sealed class DamageProjectile2D : MonoBehaviour
     {
+        [Header("Masks")]
         [SerializeField] private LayerMask _targetMask;
-        [SerializeField, Min(0.1f)] private float _speed = 10f;
-        [SerializeField, Min(0.1f)] private float _lifeTime = 3f;
+        [SerializeField] private LayerMask _worldMask;
 
         private DamageInfo _info;
-        private Vector2 _dir = Vector2.right;
+        private GameObject _owner;
+
+        private Rigidbody2D _rb;
+        private Vector2 _dir;
         private float _dieTime;
-        private bool _armed;
 
-        private void Awake() => GetComponent<Collider2D>().isTrigger = true;
+        private int _pierce;
+        private int _hitsDone;
 
-        public void Arm(DamageInfo info, Vector2 dir)
+        private readonly HashSet<int> _hitTargets = new();
+
+        private void Awake()
+        {
+            var col = GetComponent<Collider2D>();
+            col.isTrigger = true;
+
+            _rb = GetComponent<Rigidbody2D>();
+            _rb.bodyType = RigidbodyType2D.Kinematic;
+            _rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+            _rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+        }
+
+        public void Init(DamageInfo info, GameObject owner, Vector2 dir, float speed, float lifetime, int pierce)
         {
             _info = info;
+            _owner = owner;
+
             _dir = dir.sqrMagnitude > 0.0001f ? dir.normalized : Vector2.right;
-            _dieTime = Time.time + _lifeTime;
-            _armed = true;
+            _rb.velocity = _dir * Mathf.Max(0.1f, speed);
+
+            _dieTime = Time.time + Mathf.Max(0.1f, lifetime);
+            _pierce = Mathf.Max(0, pierce);
+            _hitsDone = 0;
         }
 
         private void Update()
         {
-            if (!_armed) return;
-            transform.position += (Vector3)(_dir * _speed * Time.deltaTime);
-            if (Time.time >= _dieTime) Destroy(gameObject);
+            if (Time.time >= _dieTime)
+                Destroy(gameObject);
         }
 
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (!_armed) return;
-            if ((_targetMask.value & (1 << other.gameObject.layer)) == 0) return;
+            int layerBit = 1 << other.gameObject.layer;
+
+            // не врезаемся в владельца (и его детей)
+            if (_owner != null && other.GetComponentInParent<Transform>() == _owner.transform)
+                return;
+
+            // мир/стены
+            if ((_worldMask.value & layerBit) != 0)
+            {
+                Destroy(gameObject);
+                return;
+            }
+
+            // не цель
+            if ((_targetMask.value & layerBit) == 0)
+                return;
 
             var dmg = other.GetComponentInParent<IDamageable>();
             if (dmg == null || !dmg.IsAlive) return;
+
+            int id = other.GetInstanceID();
+            if (_hitTargets.Contains(id)) return;
+            _hitTargets.Add(id);
 
             var info = _info;
             info.hitPoint = other.ClosestPoint(transform.position);
             dmg.TryApplyDamage(info);
 
-            Destroy(gameObject);
+            _hitsDone++;
+            if (_hitsDone > _pierce)
+                Destroy(gameObject);
         }
     }
 }

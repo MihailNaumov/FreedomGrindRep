@@ -109,12 +109,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mode: 0
   _cooldown: 0.5
+  _attackEnabled: 1
   _baseDamage: 10
   _damageType: 0
   _hitboxPrefab: {fileID: 0}
   _hitboxSpawn: {fileID: 0}
+  _hitboxLifetime: 0.12
+  _hitboxDestroyOnFirstHit: 0
+  _hitboxFollowSpawn: 1
   _projectilePrefab: {fileID: 0}
   _projectileSpawn: {fileID: 0}
+  _projectileSpeed: 12
+  _projectileLifetime: 3
+  _projectilePierce: 0
 --- !u!114 &2941476697037072909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,11 +139,11 @@ MonoBehaviour:
   _startHp: 100
   _invulnAfterHit: 0.05
   _typeMultiplier:
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
+    Physical: 0
+    Earth: 0
+    Water: 0
+    Fire: 0
+    Air: 0
 --- !u!1 &617647146696936666
 GameObject:
   m_ObjectHideFlags: 0

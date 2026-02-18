@@ -19,9 +19,12 @@ namespace FreedomGrind.Combat
         [SerializeField, Min(0f)] private float _invulnAfterHit = 0.05f;
 
         // по индексам DamageType (Physical/Earth/Water/...)
+        
         [System.Serializable]
-        public struct DamageTypeMultiplier
+        public struct DamageResistancePercent
         {
+            [Header("Damage Type Resistance (%)")]
+
             public float Physical;
             public float Earth;
             public float Water;
@@ -30,7 +33,7 @@ namespace FreedomGrind.Combat
         }
 
         [SerializeField]
-        private DamageTypeMultiplier _typeMultiplier;
+        private DamageResistancePercent _typeResistancePercent;
 
         private float _invulnUntil;
 
@@ -84,16 +87,16 @@ namespace FreedomGrind.Combat
 
             return true;
         }
-        private float GetMultiplier(DamageType type)
+        private float GetResistancePercent(DamageType type)
         {
             return type switch
             {
-                DamageType.Physical => _typeMultiplier.Physical,
-                DamageType.Earth => _typeMultiplier.Earth,
-                DamageType.Water => _typeMultiplier.Water,
-                DamageType.Fire => _typeMultiplier.Fire,
-                DamageType.Air => _typeMultiplier.Air,
-                _ => 1f
+                DamageType.Physical => _typeResistancePercent.Physical,
+                DamageType.Earth => _typeResistancePercent.Earth,
+                DamageType.Water => _typeResistancePercent.Water,
+                DamageType.Fire => _typeResistancePercent.Fire,
+                DamageType.Air => _typeResistancePercent.Air,
+                _ => 0f
             };
         }
 
@@ -108,8 +111,10 @@ namespace FreedomGrind.Combat
             if (info.amount <= 0f) return false;
             if (float.IsNaN(info.amount) || float.IsInfinity(info.amount)) return false;
 
-            
-            float dmg = info.amount * GetMultiplier(info.type);
+            float resistancePct = GetResistancePercent(info.type);   // резист/у€звимость в процентах
+            float resistance = resistancePct / 100f;          // перевод в долю
+            float dmg = info.amount * (1f - resistance);
+
             if (float.IsNaN(dmg) || float.IsInfinity(dmg)) return false;
 
 
@@ -142,19 +147,19 @@ namespace FreedomGrind.Combat
 
         private static float Sanitize(float v)
         {
-            if (float.IsNaN(v) || float.IsInfinity(v) || v == 0f)
-                return 1f;
+            if (float.IsNaN(v) || float.IsInfinity(v))
+                return 0f;
 
             return v;
         }
 
         private void OnValidate()
         {
-            _typeMultiplier.Physical = Sanitize(_typeMultiplier.Physical);
-            _typeMultiplier.Earth = Sanitize(_typeMultiplier.Earth);
-            _typeMultiplier.Water = Sanitize(_typeMultiplier.Water);
-            _typeMultiplier.Fire = Sanitize(_typeMultiplier.Fire);
-            _typeMultiplier.Air = Sanitize(_typeMultiplier.Air);
+            _typeResistancePercent.Physical = Sanitize(_typeResistancePercent.Physical);
+            _typeResistancePercent.Earth = Sanitize(_typeResistancePercent.Earth);
+            _typeResistancePercent.Water = Sanitize(_typeResistancePercent.Water);
+            _typeResistancePercent.Fire = Sanitize(_typeResistancePercent.Fire);
+            _typeResistancePercent.Air = Sanitize(_typeResistancePercent.Air);
         }
         public bool Heal(float amount)
         {
