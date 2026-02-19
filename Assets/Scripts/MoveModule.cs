@@ -1,8 +1,9 @@
-﻿using UnityEditor.VersionControl;
+﻿using System;
+using UnityEditor.VersionControl;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class MoveModule : MonoBehaviour
+public class MoveModule : MonoBehaviour, IMovementSource
 {
     [SerializeField] private float moveSpeed = 5f;
 
@@ -16,6 +17,9 @@ public class MoveModule : MonoBehaviour
     private Vector2 desiredVelocity = Vector2.zero;
     private Vector2 extraForces = Vector2.zero;
     private EnemyStateController enemyController; // если это враг
+
+    public event Action<Vector2> OnVelocityChanged;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -58,7 +62,7 @@ public class MoveModule : MonoBehaviour
             }
             else
             {
-                float t = Time.deltaTime / acceleration;
+                float t = Time.fixedDeltaTime / acceleration;
                 rb.velocity = Vector2.Lerp(rb.velocity, desiredVelocity + extraForces, t);
             }
         }
@@ -70,12 +74,14 @@ public class MoveModule : MonoBehaviour
             }
             else
             {
-                float t = Time.deltaTime / deceleration;
+                float t = Time.fixedDeltaTime / deceleration;
                 rb.velocity = Vector2.Lerp(rb.velocity, extraForces, t);
             }
         }
         // if (enemyController != null) Debug.Log(desiredVelocity); // ТЕСТ
         extraForces = Vector2.Lerp(extraForces, Vector2.zero, Time.fixedDeltaTime * 5f);
+
+        OnVelocityChanged?.Invoke(rb.velocity);
     }
 
     public void SetDirection(Vector2 direction)
@@ -93,6 +99,9 @@ public class MoveModule : MonoBehaviour
     private void OnDisable()
     {
         if (rb != null)
-            rb.velocity = Vector2.zero;
+        rb.velocity = Vector2.zero;
+
+        OnVelocityChanged?.Invoke(Vector2.zero);
+
     }
 }
