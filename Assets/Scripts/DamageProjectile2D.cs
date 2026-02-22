@@ -8,6 +8,10 @@ namespace FreedomGrind.Combat
     [RequireComponent(typeof(Rigidbody2D))]
     public sealed class DamageProjectile2D : MonoBehaviour
     {
+        public enum FacingAxis { Right, Up }
+        [SerializeField] private FacingAxis _facingAxis = FacingAxis.Right;
+        [SerializeField] private bool _rotateOnInit = true;
+
         [Header("Masks")]
         [SerializeField] private LayerMask _targetMask;
         [SerializeField] private LayerMask _worldMask;
@@ -41,6 +45,12 @@ namespace FreedomGrind.Combat
             _owner = owner;
 
             _dir = dir.sqrMagnitude > 0.0001f ? dir.normalized : Vector2.right;
+            if (_rotateOnInit)
+            {
+                if (_facingAxis == FacingAxis.Right) transform.right = _dir;
+                else transform.up = _dir;
+            }
+
             _rb.velocity = _dir * Mathf.Max(0.1f, speed);
 
             _dieTime = Time.time + Mathf.Max(0.1f, lifetime);

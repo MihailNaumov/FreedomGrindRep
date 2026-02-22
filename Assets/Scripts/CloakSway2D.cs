@@ -86,7 +86,6 @@ public sealed class CloakSway2D : MonoBehaviour
         if (_hasSource)
             movementSource.OnVelocityChanged += OnVelocityChanged;
 
-        Debug.Log($"[Cloak] movementSource found = {_hasSource}");
     }
 
     private void OnDisable()

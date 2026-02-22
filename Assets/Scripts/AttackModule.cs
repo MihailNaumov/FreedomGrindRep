@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace FreedomGrind.Combat
@@ -7,9 +8,13 @@ namespace FreedomGrind.Combat
     {
         public enum Mode { MeleeHitbox, Projectile }
 
+        [SerializeField] private WeaponProfile _weapon;
+
+        [SerializeField] private Transform _weaponRoot; // FireStaff в иерархии
+        private Transform _spawnPoint;
+
         [Header("Core")]
         [SerializeField] private Mode _mode = Mode.MeleeHitbox;
-        [SerializeField, Min(0.01f)] private float _cooldown = 0.5f;
         [SerializeField] private bool _attackEnabled = true;
 
         [Header("Damage")]
@@ -25,12 +30,16 @@ namespace FreedomGrind.Combat
 
         [Header("Projectile")]
         [SerializeField] private DamageProjectile2D _projectilePrefab;
-        [SerializeField] private Transform _projectileSpawn;
         [SerializeField, Min(0.1f)] private float _projectileSpeed = 12f;
         [SerializeField, Min(0.1f)] private float _projectileLifetime = 3f;
         [SerializeField, Min(0)] private int _projectilePierce = 0;
 
         private float _nextAttackTime;
+
+        private void Start()
+        {
+            Equip(_weapon);
+        }
 
         public void SetAttackEnabled(bool enabled) => _attackEnabled = enabled;
 
@@ -38,7 +47,14 @@ namespace FreedomGrind.Combat
         {
             if (!_attackEnabled) return false;
             if (Time.time < _nextAttackTime) return false;
-            _nextAttackTime = Time.time + _cooldown;
+            _nextAttackTime = Time.time + _weapon.cooldown;
+
+            if (_spawnPoint == null)
+            {
+                Debug.LogWarning("[AttackModule] Missing projectile spawn.", this);
+                return false;
+            }
+
 
             if (_mode == Mode.MeleeHitbox) FireHitbox(dir);
             else FireProjectile(dir);
@@ -71,17 +87,31 @@ namespace FreedomGrind.Combat
 
         private void FireProjectile(Vector2 dir)
         {
-            if (_projectilePrefab == null || _projectileSpawn == null) return;
+            if (_projectilePrefab == null || _spawnPoint == null) return;
 
-            var pr = Instantiate(_projectilePrefab, _projectileSpawn.position, Quaternion.identity);
-            pr.Init(
-                info: BuildInfo(pr.gameObject),
+            var proj = Instantiate(_weapon.projectilePrefab, _spawnPoint.position, Quaternion.identity);
+
+            // Собираем DamageInfo
+            var info = BuildInfo(source: proj.gameObject);
+            info.amount = _weapon.baseDamage;
+            info.type = _weapon.damageType;
+
+            proj.Init(
                 owner: gameObject,
+                info: info,
                 dir: dir,
-                speed: _projectileSpeed,
-                lifetime: _projectileLifetime,
-                pierce: _projectilePierce
+                speed: _weapon.speed,
+                lifetime: _weapon.lifetime,
+                pierce: _weapon.pierce
             );
         }
+
+        public void Equip(WeaponProfile weapon)
+        {
+            _weapon = weapon;
+            _spawnPoint = GetComponentInChildren<GunAimController2D>().SpawnPoint; // заглушка для спавнпоинта
+          
+        }
     }
+
 }

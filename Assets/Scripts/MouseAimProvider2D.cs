@@ -17,14 +17,19 @@ namespace FreedomGrind.Combat
             dir = Vector2.right;
 
             if (_camera == null)
-                return false; // не смогли прицелиться, но dir остаётся вправо
+                return false; // dir остаётся вправо
 
-            Vector3 world = _camera.ScreenToWorldPoint(Input.mousePosition);
-            world.z = originWorld.z;
+            Vector3 mp = Input.mousePosition;
+
+            // ScreenToWorldPoint ждёт z = расстояние от камеры до плоскости, где находится origin
+            float zDist = originWorld.z - _camera.transform.position.z;
+            mp.z = zDist;
+
+            Vector3 world = _camera.ScreenToWorldPoint(mp);
 
             Vector2 d = (Vector2)(world - originWorld);
             if (d.sqrMagnitude < 0.0001f)
-                return false; // мышь почти в origin, тоже считаем "не прицелился"
+                return false;
 
             dir = d.normalized;
             return true;

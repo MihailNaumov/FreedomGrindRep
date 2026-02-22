@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace FreedomGrind.Combat
@@ -26,8 +27,10 @@ namespace FreedomGrind.Combat
         private IAimProvider2D _aimProvider;
         private Vector2 _currentMoveDir;
 
+
         private void Awake()
         {
+
             // movement
             if (_moveModule == null)
                 _moveModule = GetComponent<MoveModule>();
@@ -35,9 +38,6 @@ namespace FreedomGrind.Combat
             // attack
             if (_attackModule == null)
                 _attackModule = GetComponent<AttackModule>();
-
-            if (_attackOrigin == null)
-                _attackOrigin = transform;
 
             _aimProvider = _aimProviderBehaviour as IAimProvider2D;
 
@@ -48,7 +48,10 @@ namespace FreedomGrind.Combat
                 Debug.LogWarning($"[PlayerInputRouter] AttackModule не найден на {name}");
 
             if (_aimProviderBehaviour != null && _aimProvider == null)
+            {
                 Debug.LogWarning($"[PlayerInputRouter] {_aimProviderBehaviour.name} не реализует IAimProvider2D");
+            }
+            
         }
 
         private void Update()
@@ -98,11 +101,9 @@ namespace FreedomGrind.Combat
 
             if (_aimProvider != null)
             {
-                _aimProvider.TryGetAimDirection(_attackOrigin.position, out dir);
+                _aimProvider.TryGetAimDirection(transform.position, out dir);
                 _attackModule.TryAttack(dir);
             }
-             
-
         }
     }
 }

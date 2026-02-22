@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0943b980038e59e4188745ad5f4d80ab, type: 3}
+  m_Name: WP_Fireball
+  m_EditorClassIdentifier: 
+  weaponName: Fireball Weapon
+  projectilePrefab: {fileID: 7200277786487157589, guid: b1dad376d81aab74bbebce4260d17d48, type: 3}
+  damageType: 0
+  baseDamage: 10
+  cooldown: 0.5
+  speed: 10
+  lifetime: 2
+  pierce: 0
